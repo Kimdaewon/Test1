@@ -19,7 +19,6 @@
 
 	More about this license: http://www.question2answer.org/license.php
 */
-
 	return array(
 		'1_answer_title' => '1 Answer',
 		'a_convert_to_c_on' => 'Convert this answer into a comment on:',
