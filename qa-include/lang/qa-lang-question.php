@@ -78,7 +78,7 @@
 		'close_q_popup' => '이 질문을 폐쇄 (이후 답변 불가)',
 		'close_reason_title' => '폐쇄 이유 :',
 		'closed_as_duplicate' => '폐쇄 (중복) :',
-		'closed_with_note' => '폐쇄 (이 유) :',
+		'closed_with_note' => '폐쇄 (이유) :',
 		'comment_a_popup' => '이 답변에 댓글',
 		'comment_button' => '댓글',
 		'comment_limit' => '댓글 횟수가 한계에 도달했습니다 - 1 시간 후에 다시 시도하십시오',
