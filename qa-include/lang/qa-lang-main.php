@@ -206,7 +206,7 @@
 		'x_ago' => '^전',
 		'x_answers' => '^ 답변',
 		'x_comments' => '^ 댓글',
-		'x_days' => '^ 날짜',
+		'x_days' => '^ 일',
 		'x_disliked' => '^ 지원하지 않습니다',
 		'x_flags' => '^ 통보',
 		'x_hours' => '^ 시간',
