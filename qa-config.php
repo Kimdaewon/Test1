@@ -33,7 +33,7 @@
 
 	define('QA_MYSQL_HOSTNAME', '127.0.0.1');
 	define('QA_MYSQL_USERNAME', 'root');
-	define('QA_MYSQL_PASSWORD', '1111111');
+	define('QA_MYSQL_PASSWORD', '111111');
 	define('QA_MYSQL_DATABASE', 'mysql');
 
 /*
@@ -58,7 +58,7 @@
 	MySQL database, or to include the Question2Answer tables in an existing MySQL database.
 */
 
-	define('QA_MYSQL_TABLE_PREFIX', 'qa_sqs');
+	define('QA_MYSQL_TABLE_PREFIX', 'qa_');
 
 /*
 	If you wish, you can define QA_MYSQL_USERS_PREFIX separately from QA_MYSQL_TABLE_PREFIX.
