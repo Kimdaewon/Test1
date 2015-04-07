@@ -123,7 +123,7 @@
 		'send_password_button' => '새 암호를 보내기',
 		'send_reset_button' => '비밀번호 이메일 보내기',
 		'send_reset_note' => '당신의 이메일 주소로 조작 방법을 나타내는 메시지를 보냅니다。',
-		'special_users' => '특권 사용자',
+		'special_users' => '운영자',
 		'terms_not_accepted' => '당신은 이에 동의해야합니다。',
 		'unblock_user_button' => '차단 해제',
 		'unsubscribe_complete' => '^0 에서 알림 메일 구독을 해제했습니다. ^1 계정 ^2 로 다시 가입시킬 수 있습니다.',
