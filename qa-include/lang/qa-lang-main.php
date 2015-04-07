@@ -195,7 +195,7 @@
 		'vote_down_popup' => '지원하지 않습니다',
 		'vote_limit' => '지원 횟수 제한에 도달했습니다 - 1 시간 후에 다시 시도하십시오',
 		'vote_must_confirm' => '지지는 ^5 이메일 인증 ^6이 필요합니다.',
-		'vote_must_login' => '지지는 ^1 로그인 ^2 또는 ^3 등록 ^4이 필요합니다.',
+		'vote_must_login' => '투표는 ^1 로그인 ^2 또는 ^3 등록 ^4이 필요합니다.',
 		'vote_not_allowed' => '지지 수 없습니다.',
 		'vote_up_popup' => '대기',
 		'voted_down_popup' => '지지 요청 - 클릭으로 해제 할 수 있습니다',
