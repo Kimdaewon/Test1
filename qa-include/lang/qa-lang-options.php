@@ -43,7 +43,7 @@
 		'avatar_q_page_q_size' => '아바타의 표시 크기 - 질문:',
 		'avatar_store_size' => '아바타의 최대 크기:',
 		'avatar_users_size' => '아바타의 표시 크기 - 사용자 목록:',
-		'block_bad_words' => '금지 용어 - 공백 또는 쉼표로 구분:',
+		'block_bad_words' => '금지용어 - 공백 또는 쉼표로 구분:',
 		'block_ips_write' => 'IP 주소에 의한 차단 - 공백 또는 쉼표로 구분:',
 		'captcha_module' => '캡처 모듈:',
 		'captcha_on_anon_post' => '캡처 표시 - 익명 게시물:',
