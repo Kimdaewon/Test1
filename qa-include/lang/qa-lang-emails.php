@@ -21,70 +21,70 @@
 */
 
 	return array(
-		'a_commented_body' => "Your answer on ^site_title has a new comment by ^c_handle:\n\n^open^c_content^close\n\nYour answer was:\n\n^open^c_context^close\n\nYou may respond by adding your own comment:\n\n^url\n\nThank you,\n\n^site_title",
-		'a_commented_subject' => 'Your ^site_title answer has a new comment',
+		'a_commented_body' => "^site_title のあなたの回答に^c_handleさんからコメントが投稿されました。\n\n^open^c_content^close\n\nあなたの回答:\n\n^open^c_context^close\n\nコメントする場合は下をクリック:\n\n^url\n\n^site_title",
+		'a_commented_subject' => '【^site_title】回答にコメントが投稿されました。',
 
-		'a_followed_body' => "Your answer on ^site_title has a new related question by ^q_handle:\n\n^open^q_title^close\n\nYour answer was:\n\n^open^a_content^close\n\nClick below to answer the new question:\n\n^url\n\nThank you,\n\n^site_title",
-		'a_followed_subject' => 'Your ^site_title answer has a related question',
+		'a_followed_body' => "^site_title のあなたの回答に^q_handleさんから関連する質問が投稿されました。\n\n^open^q_title^close\n\nあなたの回答:\n\n^open^a_content^close\n\n質問に回答する場合は下をクリック:\n\n^url\n\n^site_title",
+		'a_followed_subject' => '【^site_title】関連質問が投稿されました。',
 
-		'a_selected_body' => "Congratulations! Your answer on ^site_title has been selected as the best by ^s_handle:\n\n^open^a_content^close\n\nThe question was:\n\n^open^q_title^close\n\nClick below to see your answer:\n\n^url\n\nThank you,\n\n^site_title",
-		'a_selected_subject' => 'Your ^site_title answer has been selected!',
+		'a_selected_body' => "おめでとうございます！^site_title の下の回答が^s_handleさんからベストアンサーに選ばれました。\n\n^open^a_content^close\n\n質問:\n\n^open^q_title^close\n\nあなたの回答は下をクリック:\n\n^url\n\n^site_title",
+		'a_selected_subject' => '【^site_title】回答がベストアンサーに選ばれました！',
 
-		'c_commented_body' => "A new comment by ^c_handle has been added after your comment on ^site_title:\n\n^open^c_content^close\n\nThe discussion is following:\n\n^open^c_context^close\n\nYou may respond by adding another comment:\n\n^url\n\nThank you,\n\n^site_title",
-		'c_commented_subject' => 'Your ^site_title comment has been added to',
+		'c_commented_body' => "^site_title のあなたのコメントの後に^c_handleさんからコメントが追加されました。\n\n^open^c_content^close\n\nコメント対象の発言：\n\n^open^c_context^close\n\nコメントする場合は下をクリック:\n\n^url\n\n^site_title",
+		'c_commented_subject' => '【^site_title】コメントが追加されました。',
 
-		'confirm_body' => "Please click below to confirm your email address for ^site_title.\n\n^url\n\nThank you,\n^site_title",
-		'confirm_subject' => '^site_title - Email Address Confirmation',
+		'confirm_body' => "下のリンクをクリックして^site_titleのあなたのメールアドレスを認証してください。\n\n^url\n\n^site_title",
+		'confirm_subject' => '【^site_title】メールアドレスの確認',
 
-		'feedback_body' => "Comments:\n^message\n\nName:\n^name\n\nEmail:\n^email\n\nPrevious page:\n^previous\n\nUser:\n^url\n\nIP address:\n^ip\n\nBrowser:\n^browser",
-		'feedback_subject' => '^ feedback',
+		'feedback_body' => "コメント:\n^message\n\n名前:\n^name\n\nメールアドレス:\n^email\n\n直前のページ:\n^previous\n\nユーザー:\n^url\n\nIPアドレス:\n^ip\n\nブラウザ:\n^browser",
+		'feedback_subject' => '【^】問い合わせ',
 
-		'flagged_body' => "A post by ^p_handle has received ^flags:\n\n^open^p_context^close\n\nClick below to see the post:\n\n^url\n\n\nClick below to review all flagged posts:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-		'flagged_subject' => '^site_title has a flagged post',
+		'flagged_body' => "^p_handle さんの記事に ^flags がありました。\n\n^open^p_context^close\n\n記事は下をクリック:\n\n^url\n\n\n通報されたすべての記事は下をクリック:\n\n^a_url^site_title",
+		'flagged_subject' => '【^site_title】通報がありました。',
 
-		'moderate_body' => "A post by ^p_handle requires your approval:\n\n^open^p_context^close\n\nClick below to approve or reject the post:\n\n^url\n\n\nClick below to review all queued posts:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-		'moderate_subject' => '^site_title moderation',
+		'moderate_body' => "^p_handle さんの記事を承認してください。\n\n^open^p_context^close\n\n記事の承認／否認は下をクリック:\n\n^url\n\n\n承認待ちの記事の一覧は下をクリック:\n\n^a_url\n\n^site_title",
+		'moderate_subject' => '【^site_title】記事を承認してください。',
 
-		'new_password_body' => "Your new password for ^site_title is below.\n\nPassword: ^password\n\nIt is recommended to change this password immediately after logging in.\n\nThank you,\n^site_title\n^url",
-		'new_password_subject' => '^site_title - Your New Password',
+		'new_password_body' => "^site_title のあなたの新しいパスワードをお知らせします。\n\nパスワード: ^password\n\nログイン後すぐにこのパスワードを変更することをお勧めします。\n\n^site_title\n^url",
+		'new_password_subject' => '【^site_title】パスワード変更のお知らせ',
 
-		'private_message_body' => "You have been sent a private message by ^f_handle on ^site_title:\n\n^open^message^close\n\n^moreThank you,\n\n^site_title\n\n\nTo block private messages, visit your account page:\n^a_url",
-		'private_message_info' => "More information about ^f_handle:\n\n^url\n\n",
-		'private_message_reply' => "Click below to reply to ^f_handle by private message:\n\n^url\n\n",
-		'private_message_subject' => 'Message from ^f_handle on ^site_title',
+		'private_message_body' => "^site_titleの^f_handleさんから非公開メッセージを受信しました。\n\n^open^message^close\n\n^more\n\n^site_title\n\nマイアカウントで非公開メッセージをブロックできます。\n^a_url",
+		'private_message_info' => "^f_handleさんの情報\n\n^url\n\n",
+		'private_message_reply' => "^f_handleさんへの返信は下をクリック\n\n^url",
+		'private_message_subject' => '【^site_title】^f_handleさんから非公開メッセージを受信',
 
-		'q_answered_body' => "Your question on ^site_title has been answered by ^a_handle:\n\n^open^a_content^close\n\nYour question was:\n\n^open^q_title^close\n\nIf you like this answer, you may select it as the best:\n\n^url\n\nThank you,\n\n^site_title",
-		'q_answered_subject' => 'Your ^site_title question was answered',
+		'q_answered_body' => "^site_title のあなたの質問に^a_handleさんから回答が投稿されました。\n\n^open^a_content^close\n\nあなたの質問:\n\n^open^q_title^close\n\n回答は下をクリック:\n\n^url\n\n^site_title",
+		'q_answered_subject' => '【^site_title】質問に回答が投稿されました。',
 
-		'q_commented_body' => "Your question on ^site_title has a new comment by ^c_handle:\n\n^open^c_content^close\n\nYour question was:\n\n^open^c_context^close\n\nYou may respond by adding your own comment:\n\n^url\n\nThank you,\n\n^site_title",
-		'q_commented_subject' => 'Your ^site_title question has a new comment',
+		'q_commented_body' => "^site_title のあなたの質問に^c_handleさんからコメントが投稿されました。\n\n^open^c_content^close\n\nあなたの質問:\n\n^open^c_context^close\n\nコメントする場合は下をクリック:\n\n^url\n\n^site_title",
+		'q_commented_subject' => '【^site_title】質問にコメントが投稿されました。',
 
-		'q_posted_body' => "A new question has been asked by ^q_handle:\n\n^open^q_title\n\n^q_content^close\n\nClick below to see the question:\n\n^url\n\nThank you,\n\n^site_title",
-		'q_posted_subject' => '^site_title has a new question',
+		'q_posted_body' => "^site_title に^q_handleさんから質問が投稿されました。\n\n^open^q_title\n\n^q_content^close\n\n質問は下をクリック:\n\n^url\n\n^site_title",
+		'q_posted_subject' => '【^site_title】質問が投稿されました。',
 
-		'remoderate_body' => "An edited post by ^p_handle requires your reapproval:\n\n^open^p_context^close\n\nClick below to approve or hide the edited post:\n\n^url\n\n\nClick below to review all queued posts:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-		'remoderate_subject' => '^site_title moderation',
+		'remoderate_body' => "^p_handleさんが編集した記事を承認してください:\n\n^open^p_context^close\n\n編集された記事の承認／非表示は下をクリック:\n\n^url\n\n承認待ちの記事は下をクリック:\n\n^a_url\n\n\n^site_title",
+		'remoderate_subject' => '【^site_title】再承認通知',
+		
+		'reset_body' => "^site_title のあなたのパスワードをリセットする場合は下をクリック:\n\n^url\n\nまたは、ページ内のフィールドに下のコードを入力:\n\nコード: ^code\n\nパスワードをリセットしない場合は、このメールは無視してください。\n\n^site_title",
+		'reset_subject' => '【^site_title】パスワードリセットのお知らせ',
 
-		'reset_body' => "Please click below to reset your password for ^site_title.\n\n^url\n\nAlternatively, enter the code below into the field provided.\n\nCode: ^code\n\nIf you did not ask to reset your password, please ignore this message.\n\nThank you,\n^site_title",
-		'reset_subject' => '^site_title - Reset Forgotten Password',
+		'to_handle_prefix' => "^ さん\n\n",
 
-		'to_handle_prefix' => "^,\n\n",
+		'u_registered_body' => "^u_handleさんが新しいユーザーとして登録されました。\n\nプロフィールは下をクリック:\n\n^url\n\n^site_title",
+		'u_to_approve_body' => "^u_handleさんが新しいユーザーとして登録されました。\n\nユーザーの承認は下をクリック:\n\n^url\n\n承認待ちのユーザーは下をクリック:\n\n^a_url\n\n^site_title",
+		'u_registered_subject' => '【^site_title】新しいユーザーが登録されました。',
+		
+		'u_approved_body' => "プロフィールは下をクリック:\n\n^url\n\n^site_title",
+		'u_approved_subject' => '【^site_title】あなたのアカウントが承認されました。',
+		
+		'wall_post_subject' => '【^site_title】公開メッセージ',
+		'wall_post_body' => "^f_handleさんが^site_titleのあなたの公開メッセージに投稿しました。\n\n^open^post^close\n\n返事はこちら:\n\n^url\n\n^site_title",
 
-		'u_registered_body' => "A new user has registered as ^u_handle.\n\nClick below to view the user profile:\n\n^url\n\nThank you,\n\n^site_title",
-		'u_to_approve_body' => "A new user has registered as ^u_handle.\n\nClick below to approve the user:\n\n^url\n\nClick below to review all users waiting for approval:\n\n^a_url\n\nThank you,\n\n^site_title",
-		'u_registered_subject' => '^site_title has a new registered user',
-
-		'u_approved_body' => "You can see your new user profile here:\n\n^url\n\nThank you,\n\n^site_title",
-		'u_approved_subject' => 'Your ^site_title user has been approved',
-
-		'wall_post_subject' => 'Post on your ^site_title wall',
-		'wall_post_body' => "^f_handle has posted on your user wall at ^site_title:\n\n^open^post^close\n\nYou may respond to the post here:\n\n^url\n\nThank you,\n\n^site_title",
-
-		'welcome_body' => "Thank you for registering for ^site_title.\n\n^custom^confirmYour login details are as follows:\n\nUsername: ^handle\nEmail: ^email\n\nPlease keep this information safe for future reference.\n\nThank you,\n\n^site_title\n^url",
-		'welcome_confirm' => "Please click below to confirm your email address.\n\n^url\n\n",
-		'welcome_subject' => 'Welcome to ^site_title!',
+		'welcome_body' => "^site_title のユーザー登録ありがとうございます。\n\n^custom^confirmログイン情報:\n\nユーザー名: ^handle\n\nメールアドレス: ^email\n後で参照できるように、この情報は大切に保管してください。\n\n^site_title\n^url",
+		'welcome_confirm' => "下のリンクをクリックしてあなたのメールアドレスを認証してください。\n\n^url\n\n",
+		'welcome_subject' => '【^site_title】ユーザー登録通知',
 	);
-
+	
 
 /*
 	Omit PHP closing tag to help avoid accidental output
