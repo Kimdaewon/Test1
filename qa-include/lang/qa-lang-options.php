@@ -172,7 +172,7 @@
 		'page_size_wall' => '1 페이지의 표시 건수 - 공개 메시지:',
 		'pages_prev_next' => '이전 페이지/다음 페이지로의 링크:',
 		'permit_admins' => '감독자',
-		'permit_all' => '무제한',
+		'permit_all' => '무 제한',
 		'permit_approve_users' => '등록 된 사용자의 승인:',
 		'permit_approved' => '인증 된 사용자',
 		'permit_approved_points' => '승인＆규정 포인트 취득 사용자',
